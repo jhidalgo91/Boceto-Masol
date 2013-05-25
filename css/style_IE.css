@@ -1,0 +1,21 @@
+/* 
+    Document   : style
+    Created on : 13-may-2013, 20:15:02
+    Author     : AlexHid.es
+    Description:HOJA DE ESTILO PARA INTERNET EXPLORER
+*/
+
+.capaPeq, .capaPeq2{
+    margin-left: 12px;
+}
+.capaPeq2{
+    margin-left: 0px;
+    margin-right: 12px;
+}
+.capaRedes{
+    margin-left: 10px;
+}
+.menuCocina{
+    display: none;
+}
+.menu ul li:hover > .menuCocina{display: block;}

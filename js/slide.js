@@ -56,7 +56,7 @@
             }
             
             // 5. insert the back and forward link
-            $wrapper.after('<a href="#" class="arrow back">&lt;</a><a href="#" class="arrow forward">&gt;</a>');
+            $wrapper.after('<a href="#" class="arrow back">&lt;</a><a href="#" class="arrow forward"></a>');
             
             // 6. bind the back and forward links
             $('a.back', this).click(function () {

@@ -1,3 +1,4 @@
+<?php require_once 'conf.php'; ?>
 <!--
 To change this template, choose Tools | Templates
 and open the template in the editor.
@@ -5,44 +6,13 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Grupo Masol</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!--Iniciotransaciones-->
-        <link href="css/style_transacion.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript"
-        src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-        <!--Fin transaciones-->
+        <?php meta("Grupo Masol"); ?>
+        <link href="<?php echo RUTA_PATH; ?>css/style_transacion.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div id="centro">
-            <div id="encabezado">
-                <div id="imgLogo">
-                    <img src="images/design/logo.png">
-                </div>
-                <div>
-                    <form name="buscador" id="buscadorForm" action="#" method="POST">
-                        <input class="buscador" disabled="disabled" type="text"  placeholder="Buscar..." /><img src="images/design/lupa.png" />
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!--Menú-->
-        <div id="fondoMenu">
-            <div class="menu">
-                <ul>
-                    <li><a href="" >Inicio</a></li>
-                    <li><a href="" >Muebles</a></li>
-                    <li><a href="" >Cocina &AMP; Ba&ntilde;o</a></li>
-                    <li><a href="" >Hogar</a></li>
-                    <li><a href="" >Descanso</a></li>
-                    <li><a href="" >Milar Electrodom&eacute;sticos</a></li>
-                    <li><a href="" >Tienda</a></li>
-                    <li style="width: 103px"><a href="" >Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-        <!--Fin Menú-->
+
+        <?php require_once 'head.php'; ?>
+        <?php require_once 'menu.php'; ?>
         <div id="contenedor">
             <div id="contenidoPagina">
                 <!--
@@ -79,21 +49,26 @@ and open the template in the editor.
                 <!--Fin Destacados-->
                 <div>
                     <div class="restoPagina">
-                        <div class="capaGrande"></div>
-                        <div class="capaPeq"></div>
-                        <div class="capaPeq"></div>
+                        <div class="capaGrande"><img src="images/principal/1somosfabricantes.jpg" /></div>
+                        <div class="capaPeq"><img src="images/principal/2sininteres.png" /></div>
+                        <div class="capaPeq"><img src="images/principal/3abrimossabado.jpg" /></div>
                     </div>
                     <div class="restoPagina">
-                        <div class="capaPeq2"></div>
-                        <div class="capaPeq2"></div>
-                        <div class="capaGrande2"></div>
-                    </div>
-                    <div class="restoPagina" style="background-color: #0066cc;">
-
+                        <div class="capaPeq2"><img src="images/principal/4listabodas.jpg" /></div>
+                        <div class="capaPeq2"><img src="images/principal/5serviciodecoracion.png" /></div>
+                        <div class="capaGrande2"><img src="images/principal/6descanso.jpg"></div>
                     </div>
                     <div class="restoPagina">
-                        <div class="capaFoto"></div>
-                        <div class="capaRedes"></div>
+                        <img src="images/principal/7terraza.jpg" width="960" />
+                    </div>
+                    <div class="restoPagina">
+                        <div class="capaFoto"><img src="images/principal/8cocinas.jpg" /></div>
+                        <map name="redes" id="redes">
+                            <area shape="rect" coords="41,18,205,50" href="https://www.facebook.com/milarmasol.electrodomesticos" target="_blank" />
+                            <area shape="rect" coords="77,59,206,89" href="https://twitter.com/MilarMasol" target="_blank" />
+                            <area shape="rect" coords="46,104,205,128" href="#" />
+                        </map>
+                        <div class="capaRedes"><img width="220" usemap="#redes" src="images/principal/9social.png"/></div>
                     </div>
 
 
@@ -705,57 +680,10 @@ and open the template in the editor.
                 </div>
 
             </div>
-            <div id="footer">
-                <div id="contenidoFooter">
-                    <div class="divFooter">
-                        <h1>ACTUALIADAD</h1>
-                        Novedades
-                    </div>
-                    <div class="divFooter">
-                        <h1>CON RESPECTO A MASOL</h1>
-                        <ul>
-                            <li>Vivier bien</li>
-                            <li>Nuestra herencia</li>
-                            <li>Empleos</li>
-                        </ul>
-                    </div>
-                    <div class="divFooter">
-                        <h1>SERVICIO</h1>
-                        <ul>
-                            <li>Vivier bien</li>
-                            <li>Nuestra herencia</li>
-                            <li>Empleos</li>
-                        </ul>
-                    </div>
-                    <div class="divFooter">
-                        <h1>INSCRIBIRSE AL BOLET&Iacute;N INFORMATIVO</h1>
-                        <form name="boletin" id="boletin" action="#" method="POST">
-                            <input  disabled="disabled" type="text"  placeholder="Correo electr&oacute;nico" />
-                        </form>
-                    </div>
-                    <div class="divFooter">
-                        <h1>NUESTRAS TIENDAS</h1>
-                        <h1>ACCESO A LA PRENSA</h1>
-                        <h1>ACCEOS PROFESIONALES</h1>
-                        <h1>SITIO CORPORATIVO</h1>
-                        <h1>ACCESO ASOCIADOS</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="divRedes">
-                <div class="divRedesContenido">
-                    ENCUENTRA MASOL EN LAS REDES SOCIALES <span>FACEBOOK</span><span>TWITTER</span><span>PINTEREST</span>
-                </div>
-            </div>
-            <div class="copyright">
-                <img src="images/design/logo-copyright.png">
-                <span>Confidencialidad</span>ped
-                <span>T&eacute;rminos y Condiciones</span>          
-                <span>Aviso legal</span>           
-                <span>Dise&ntilde;o gr&aacute;fico : Estudio Alexhid</span>          
-                <span>&COPY; Grupo Masol 2013</span>
-            </div>
         </div>
+        <?php
+        require_once './footer.php';
+        ?>
 
     </body>
 </html>

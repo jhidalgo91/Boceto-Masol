@@ -9,47 +9,46 @@
     font-family: 'DINRounded';
     src: url('fonts/dinengschriftstd-webfont.eot');
     src: url('fonts/dinengschriftstd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dinengschriftstd-webfont.woff') format('woff'),
-         url('fonts/dinengschriftstd-webfont.ttf') format('truetype'),
-         url('fonts/dinengschriftstd-webfont.svg#DIN1451StdEngschrift') format('svg');
+        url('fonts/dinengschriftstd-webfont.woff') format('woff'),
+        url('fonts/dinengschriftstd-webfont.ttf') format('truetype'),
+        url('fonts/dinengschriftstd-webfont.svg#DIN1451StdEngschrift') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 a:link {
-    color: #2F3146;
+    color: #000;
     text-decoration: none;
 }
 a:visited {
     text-decoration: none;
-    color: #2F3146;
+    color: #000;
 }
 a:hover {
     text-decoration: none;
-    color: #2F3146;
+    color: #000;
 }
 a:active {
     text-decoration: none;
-    color: #2F3146;
+    color: #000;
 }			
 
 body{
-    background-color:#fff;
     font-family: Verdana;
     margin: 0 auto;
     padding: 0;
-    font-size:16px;
-    color: #303F46;
-    font-weight:normal; 
+    font-size:14px;
+    color: #000;
 }
 img{	border:0px;	}
 h1{
-    font-size: 36px;
-    color: #2F3146;
+    font-size: 48px;
+    color: #000;
+    font-weight: bolder;
 }
 h2, h3{
-    font-size: 30px;
-    color: #2F3146;
+    font-size: 23px;
+    color: #000;
     font-weight: bolder;
     margin-top: 0px;
     margin-bottom: 12px;
@@ -70,7 +69,8 @@ h4{
 }
 #fondoMenu{
     background-color: #F0EEEB;
-    height: 40px
+    height: 40px;
+    margin-bottom: 10px;        
 }
 #footer{
     clear: both;
@@ -133,7 +133,7 @@ h4{
 .divFooter h1{
     color: #2F3146;
     font-size: 12px;
-        
+
 }
 .divFooter ul{
     list-style: none;
@@ -160,6 +160,11 @@ h4{
 .divRedesContenido span{
     font: 17px/18px DINRounded,sans-serif;
     margin-left: 55px;
+    color: #fff;
+}
+.divRedesContenido a:link,.divRedesContenido a:visited,.divRedesContenido a:hover, .divRedesContenido a:active {
+    color: #fff;
+    text-decoration: none;
 }
 .copyright
 {
@@ -232,54 +237,42 @@ h4{
     color: #000; 
     width: auto;
 }
-/*
-/* eliminamos los bordes del primer y el último 
-/* efecto hover cambia el color 
-/* los submenús 
-.menu ul {
-    border-radius: 0 0 5px 5px;
-    left: 0;
-    margin: 0;
-    opacity: 0; /* no son visibles 
-    position: absolute;
-    z-index: 1000;
-    top: 17px; /* se ubican debajo del enlace principal 
-    /* animamos su visibildiad 
-    -moz-transition: opacity .25s ease .1s;
-    -webkit-transition: opacity .25s ease .1s;
-    -o-transition: opacity .25s ease .1s;
-    -ms-transition: opacity .25s ease .1s;
-    transition: opacity .25s ease .1s;
-}
-/* son visibes al poner el cursor encima 
-.menu li:hover > ul { opacity: 1; backface-visibility: visible; }
+/* son visibes al poner el cursor encima */
+.menu ul li:hover > ul li { height: 35px; opacity: 1; backface-visibility: visible; width: auto; display:block;  }
 
-/* cada un ode los items de los submenús 
-.menu ul li {
-    height: 0; /* no son visibles 
+/* cada un ode los items de los submenús */
+.menu ul li ul li {
+    height: 0; /* no son visibles */
     overflow: hidden;
     padding: 0;
-    background:#F8BD2D;
-    margin-top: 5px;
-    margin-left: -40px;
-    margin-bottom: -3px;
     z-index: 5000;
-    /* animamos su visibildiad 
+    clear: both;
+    background-color: #F0EEEB;
+    margin-top: 3px;
+    /* animamos su visibildiad */
     -moz-transition: height .25s ease .1s;
     -webkit-transition: height .25s ease .1s;
     -o-transition: height .25s ease .1s;
     -ms-transition: height .25s ease .1s;
     transition: height .25s ease .1s;
 }
-.menu ul li a {
+.menu ul li ul li a {
     margin: 0;
-    width: 100px;
+    padding: 8px;
 }
-/* el último n otiene un borde 
-.menu ul li:last-child a { border: none; }
 .menu ul li ul{
-    margin-left: 102px;
-    margin-top: -22px;
+    width: auto;
+}
+.menu ul li ul li{
+    border-right-style: none;
+    border-right-width: 0px;
+}
+
+.menuCocina li a{
+    width: 130px;
+}
+.menu ul li ul li ul{
+    margin-left: 110px;
 }
 /*FIN MENU*/
 .restoPagina{
@@ -287,20 +280,17 @@ h4{
     float: left;
     margin-top: 15px;
     width: 960px;
-    height: 250px;
 }
 
 .capaGrande, .capaGrande2{
     width: 490px;
     height: 250px;
-    background-color: #303F46;
     position: relative;
     float: left;
 }
 .capaPeq, .capaPeq2{
     width: 220px;
     height: 250px;
-    background-color: #303F46;
     margin-left: 15px;
     position: relative;
     float: left;
@@ -314,7 +304,6 @@ h4{
     height: 250px;
     position: relative;
     float:left;
-    background-color: #303F46;;
 
 }
 .capaRedes{
@@ -323,13 +312,19 @@ h4{
     position: relative;
     margin-left: 15px;
     float:left;
-    background-color: #303F46;;
+}
+.capaRedes a{
+    color: #000;
 }
 .listaFabricantes{
     position: relative;
     float: left;
     width: 960;
     height: auto;
+}
+.listaFabricantes a{
+    color: #000;
+
 }
 ul.listadoFabricantes{
     list-style: none;
@@ -340,4 +335,41 @@ ul.listadoFabricantes{
 li.listing{
     width: 127px;
     margin-right: 10px;
+}
+.divCocinas{
+    width: 600px;
+    position: relative;
+    float: left;
+}
+.divCocinasFotos{
+    position: relative;
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+.divCocinasFotos img{
+    margin-bottom: 30px;
+}
+.divCocinasBano{
+    position: relative;
+    float: left;
+    width: 960px;
+    margin-top: 10px;
+}
+#gallery {                
+    width: 960px;
+    position: relative;
+    float: left;
+}
+#gallery ul { list-style: none; margin: 0; margin-top: 10px; padding: 0;}
+#gallery ul li { display: inline; position: relative; float: left; margin-left: 26px; margin-top: 25px; }
+.liSinMargen{ margin-left: 0px !important; }
+#gallery ul a:hover img {
+
+}
+#gallery ul a:hover {  }
+.paginacion{
+    position: relative;
+    float: left;
+    clear: both;
 }
