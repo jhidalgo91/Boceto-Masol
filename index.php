@@ -55,7 +55,7 @@ and open the template in the editor.
                     </div>
                     <div class="restoPagina">
                         <div class="capaPeq2"><img src="images/principal/4listabodas.jpg" /></div>
-                        <div class="capaPeq2"><img src="images/principal/5serviciodecoracion.png" /></div>
+                        <div class="capaPeq2"><a href="decoracion.php" ><img src="images/principal/5serviciodecoracion.png" /></a></div>
                         <div class="capaGrande2"><img src="images/principal/6descanso.jpg"></div>
                     </div>
                     <div class="restoPagina">
