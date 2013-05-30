@@ -6,7 +6,7 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
-        <?php meta("Grupo Masol"); ?>
+        <?php meta("Cocinas Modernas .::Grupo Masol::."); ?>
         <script type="text/javascript" src="js/lightbox.js"></script>
         <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript">
@@ -23,7 +23,7 @@ and open the template in the editor.
     <?php require_once 'menu.php'; ?>
     <div id="contenedor">
         <div id="contenidoPagina">
-            <h1>Cocinas Modernas</h1>
+            <h1>Cocinas Contempor&aacute;neas</h1>
             <img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/cocina/modernas/grande/13_6.JPG&h=375&w=960&zc=1&f=png" width="960" />
             <div id="gallery">
                 <ul>

@@ -1,7 +1,7 @@
 <div id="footer">
     <div id="contenidoFooter">
         <div class="divFooter">
-            <h1>Servicios</h1>
+            <h1><a href="servicios.php">Servicios</a></h1>
         </div>
         <div class="divFooter">
             <h1><a href="<?php echo RUTA_PATH; ?>empresa.php">Empresa</a></h1>
@@ -12,8 +12,8 @@
         <div class="divFooter">
             <h1>Contacto</h1>
         </div>
-        <div class="divFooter">
-            <h1>BOLET&Iacute;N INFORMATIVO</h1>
+        <div class="divFooter formBoletin">
+            <h1>Bolet&iacute;n Informativo</h1>
             <form name="boletin" id="boletin" action="#" method="POST">
                 <input  disabled="disabled" type="text"  placeholder="Correo electr&oacute;nico" />
             </form>
@@ -22,7 +22,7 @@
 </div>
 <div class="divRedes">
     <div class="divRedesContenido">
-        ENCUENTRA MASOL EN LAS REDES SOCIALES <span><a href="https://www.facebook.com/milarmasol.electrodomesticos" target="_blank">FACEBOOK</a></span>
+        Encuentra <b>Masol</b> en las redes sociales<span><a href="https://www.facebook.com/milarmasol.electrodomesticos" target="_blank">FACEBOOK</a></span>
         <span><a href="https://twitter.com/MilarMasol" target="_blank">TWITTER</a></span><span>PINTEREST</span>
     </div>
 </div>

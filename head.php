@@ -1,7 +1,7 @@
 <div id="centro">
     <div id="encabezado">
         <div id="imgLogo">
-            <img src="images/design/logo.png">
+            <a href="index.php"><img src="images/design/logo.png"></a>
         </div>
         <div>
             <form name="buscador" id="buscadorForm" action="#" method="POST">

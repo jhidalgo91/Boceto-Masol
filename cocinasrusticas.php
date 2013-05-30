@@ -21,7 +21,7 @@ and open the template in the editor.
         <?php require_once 'menu.php'; ?>
         <div id="contenedor">
             <div id="contenidoPagina">
-                <h1>Cocinas Modernas</h1>
+                <h1>Cocinas R&uacute;sticas</h1>
                 <img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/cocina/rusticas/grande/714_28.JPG&h=375&w=960&zc=1&f=png" width="960" />
                 <div id="gallery">
                     <ul>

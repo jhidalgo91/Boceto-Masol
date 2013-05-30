@@ -28,8 +28,8 @@
 			fixedNavigation:		false,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.
 			// Configuration related to images
 			imageLoading:			'images/lightbox/lightbox-ico-loading.gif',		// (string) Path and the name of the loading icon
-			imageBtnPrev:			'images/lightbox/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
-			imageBtnNext:			'images/lightbox/lightbox-btn-next.gif',			// (string) Path and the name of the next button image
+			imageBtnPrev:			'images/design/control_left.png',			// (string) Path and the name of the prev button image
+			imageBtnNext:			'images//design/control_right.png',			// (string) Path and the name of the next button image
 			imageBtnClose:			'images/lightbox/lightbox-btn-close.gif',		// (string) Path and the name of the close btn
 			imageBlank:				'images/lightbox/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)
 			// Configuration related to container image box
@@ -261,7 +261,7 @@
 			// Show the prev button, if not the first image in set
 			if ( settings.activeImage != 0 ) {
 				if ( settings.fixedNavigation ) {
-					$('#lightbox-nav-btnPrev').css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 15% no-repeat' })
+					$('#lightbox-nav-btnPrev').css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 95% 50% no-repeat' })
 						.unbind()
 						.bind('click',function() {
 							settings.activeImage = settings.activeImage - 1;
@@ -271,7 +271,7 @@
 				} else {
 					// Show the images button for Next buttons
 					$('#lightbox-nav-btnPrev').unbind().hover(function() {
-						$(this).css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 15% no-repeat' });
+						$(this).css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 50% no-repeat' });
 					},function() {
 						$(this).css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });
 					}).show().bind('click',function() {
@@ -285,7 +285,7 @@
 			// Show the next button, if not the last image in set
 			if ( settings.activeImage != ( settings.imageArray.length -1 ) ) {
 				if ( settings.fixedNavigation ) {
-					$('#lightbox-nav-btnNext').css({ 'background' : 'url(' + settings.imageBtnNext + ') right 15% no-repeat' })
+					$('#lightbox-nav-btnNext').css({ 'background' : 'url(' + settings.imageBtnNext + ') right 50% no-repeat' })
 						.unbind()
 						.bind('click',function() {
 							settings.activeImage = settings.activeImage + 1;
@@ -295,7 +295,7 @@
 				} else {
 					// Show the images button for Next buttons
 					$('#lightbox-nav-btnNext').unbind().hover(function() {
-						$(this).css({ 'background' : 'url(' + settings.imageBtnNext + ') right 15% no-repeat' });
+						$(this).css({ 'background' : 'url(' + settings.imageBtnNext + ') right 50% no-repeat' });
 					},function() {
 						$(this).css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });
 					}).show().bind('click',function() {

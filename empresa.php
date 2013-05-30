@@ -19,13 +19,13 @@ and open the template in the editor.
                     <div><img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/design/empresa.jpg&h=375&w=960&zc=1&f=png" width="960" /></div>
                     <p>
                         Grupo Masol es una empresa que nace para cubrir las necesidades del hogar. 
-                        Contamos con una infraestructura de más de 8.000 metros cuadrados, distribuidos en nuestras 4 tiendas.
+                        Contamos con una infraestructura de m&aacute;s de 8.000 metros cuadrados, distribuidos en nuestras 4 tiendas.
                     </p>
                     <p>
-                        Con más de 50 años de experiencia, Grupo Masol está formado
+                        Con m&aacute;s de 50 años de experiencia, Grupo Masol est&aacute; formado
                         por un amplio equipo profesional que lidera los cambios de
                         tendencia buscando un equilibrio entre calidad, diseño y precio.
-                        Nuestro equipo está perfectamente actualizado en todas las tendencias
+                        Nuestro equipo est&aacute; perfectamente actualizado en todas las tendencias
                         de materiales y diseño, asistiendo a todas las ferias nacionales 
                         e internacionales de equipamiento para el hogar, proporcionando 
                         a nuestras tiendas un producto actual y duradero.

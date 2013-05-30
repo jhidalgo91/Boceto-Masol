@@ -54,7 +54,7 @@ and open the template in the editor.
                         <div class="capaPeq"><img src="images/principal/3abrimossabado.jpg" /></div>
                     </div>
                     <div class="restoPagina">
-                        <div class="capaPeq2"><img src="images/principal/4listabodas.jpg" /></div>
+                        <div class="capaPeq2"><a href="listaboda.php"><img src="images/principal/4listabodas.jpg" /></a></div>
                         <div class="capaPeq2"><a href="decoracion.php" ><img src="images/principal/5serviciodecoracion.png" /></a></div>
                         <div class="capaGrande2"><img src="images/principal/6descanso.jpg"></div>
                     </div>
@@ -73,12 +73,12 @@ and open the template in the editor.
 
 
                     <!-- Listado de Fabricantes -->
-                    <div class="listaFabricantes restoPagina">
+                    <!--<div class="listaFabricantes restoPagina">
                         <h2 style="font-size: 1em; padding-bottom:5px;text-transform: uppercase;"><font><font class="">Lista de Fabricantes</font></font></h2>
 
                         <ul class="listadoFabricantes">
                             <li class="listing">
-                                <a href="http://www.domesticoshop.com/marcas/tradition"><font><font>Y Tradición</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/tradition"><font><font>Y Tradici&oacute;n</font></font></a>
                             </li>
 
                             <li class="listing">
@@ -146,7 +146,7 @@ and open the template in the editor.
                             </li>
 
                             <li class="listing">
-                                <a href="http://www.domesticoshop.com/marcas/bla-station"><font><font>Estación Bla</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/bla-station"><font><font>Estaci&oacute;n Bla</font></font></a>
                             </li>
 
                             <li class="listing">
@@ -271,7 +271,7 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list48 iden-Emu ">
-                                <a href="http://www.domesticoshop.com/marcas/emu"><font><font>Emú</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/emu"><font><font>Em&uacute;</font></font></a>
                             </li>
 
                             <li class=" listing list49 iden-Enea Contract ">
@@ -355,7 +355,7 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list69 iden-Innovation ">
-                                <a href="http://www.domesticoshop.com/marcas/innovation"><font><font>Innovación</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/innovation"><font><font>Innovaci&oacute;n</font></font></a>
                             </li>
 
                             <li class=" listing list70 iden-Isist ">
@@ -407,11 +407,11 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list82 iden-Lobster's Day ">
-                                <a href="http://www.domesticoshop.com/marcas/lobster-s-day"><font><font>Día de la Langosta</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/lobster-s-day"><font><font>D&iacute;a de la Langosta</font></font></a>
                             </li>
 
                             <li class=" listing list83 iden-Loft ">
-                                <a href="http://www.domesticoshop.com/marcas/loft"><font><font>Desván</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/loft"><font><font>Desv&aacute;n</font></font></a>
                             </li>
 
                             <li class=" listing list84 iden-Louis Poulsen ">
@@ -439,11 +439,11 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list90 iden-Mater Ethical Living ">
-                                <a  href="http://www.domesticoshop.com/marcas/mater-ethical-living"><font><font>Mater Vida Ética</font></font></a>
+                                <a  href="http://www.domesticoshop.com/marcas/mater-ethical-living"><font><font>Mater Vida &eacute;tica</font></font></a>
                             </li>
 
                             <li class=" listing list91 iden-Menu ">
-                                <a href="http://www.domesticoshop.com/marcas/menu"><font><font>Menú</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/menu"><font><font>Men&uacute;</font></font></a>
                             </li>
 
                             <li class=" listing list92 iden-Metalarte ">
@@ -543,7 +543,7 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list116 iden-Plank ">
-                                <a href="http://www.domesticoshop.com/marcas/plank"><font><font>Tablón</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/plank"><font><font>Tabl&oacute;n</font></font></a>
                             </li>
 
                             <li class=" listing list117 iden-Punt Mobles ">
@@ -551,7 +551,7 @@ and open the template in the editor.
                             </li>
 
                             <li class=" listing list118 iden-Quasar ">
-                                <a href="http://www.domesticoshop.com/marcas/quasar"><font><font>Quásar</font></font></a>
+                                <a href="http://www.domesticoshop.com/marcas/quasar"><font><font>Qu&aacute;sar</font></font></a>
                             </li>
 
                             <li class=" listing list119 iden-RS Barcelona ">
@@ -676,7 +676,7 @@ and open the template in the editor.
 
                         </ul>
 
-                    </div>
+                    </div>-->
                 </div>
 
             </div>
