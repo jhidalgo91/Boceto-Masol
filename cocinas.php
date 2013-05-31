@@ -1,10 +1,7 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Cocinas .::Grupo Masol::."); ?>
     </head>
@@ -16,8 +13,8 @@ and open the template in the editor.
             <div id="contenidoPagina">
                 <h1>Cocinas</h1>
                 <div class="divCocinasFotos">
-                    <a href="cocinasmodernas.php"><img src="<?php echo RUTA_PATH; ?>images/cocina/contemporaneasreposo.jpg" onmouseout="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/contemporaneasreposo.jpg'" onmouseover="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/contemporaneasactivo.jpg'" ></a>
-                    <a href="cocinasrusticas.php"><img src="<?php echo RUTA_PATH; ?>images/cocina/rusticasreposo.jpg" onmouseout="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/rusticasreposo.jpg'" onmouseover="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/rusticasactivo.jpg'"/></a>
+                    <a href="cocinasmodernas.php"><img src="<?php echo RUTA_PATH; ?>images/cocina/contemporaneasreposo.jpg" onmouseout="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/contemporaneasreposo.jpg'" onmouseover="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/contemporaneasactivo.jpg'" alt="Contemporaneo" /></a>
+                    <a href="cocinasrusticas.php"><img src="<?php echo RUTA_PATH; ?>images/cocina/rusticasreposo.jpg" onmouseout="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/rusticasreposo.jpg'" onmouseover="javascript:this.src='<?php echo RUTA_PATH; ?>images/cocina/rusticasactivo.jpg'" alt="Rusticas"/></a>
                 </div>
                 <div class="divCocinas">
                   <p>Somos <b>fabricantes</b>, especialistas en cocinas, con más de <b>50 años</b> de experiencia.</p>

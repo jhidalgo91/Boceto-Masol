@@ -1,10 +1,7 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Servicio de decoraci&oacute;n .::Grupo Masol::."); ?>
     </head>
@@ -16,7 +13,7 @@ and open the template in the editor.
             <div id="contenidoPagina">
                 <h1>Servicio de decoraci&oacute;n</h1>
                 <div class="divDecoracion">
-                    <div><img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/design/empresa.jpg&h=375&w=960&zc=1&f=png" width="960" /></div>
+                    <div><img src="<?php echo RUTA_PATH; ?>images/design/decoracion.jpg" alt="Decoracion" /></div>
                     <h2>
                         ¿Quiere decorar su casa o local?
                     </h2>

@@ -15,17 +15,17 @@ body{
     margin: 0 auto;
     padding: 0;
     font-size:14px;
-    color: #3e3e3e;
+    color: #616161;
 }
 img{	border:0px;	}
 h1{
     font-size: 48px;
-    color: #3e3e3e;
+    color: #000;
     font-weight: bolder;
 }
 h2, h3{
     font-size: 23px;
-    color: #3e3e3e;
+    color: #616161;
     font-weight: bolder;
     margin-top: 0px;
     margin-bottom: 12px;
@@ -36,7 +36,7 @@ h3{
 h4{
     font-size: 16px;
     font-weight: bold;
-    color: #3e3e3e;
+    color: #616161;
 }
 .noticiasMasLeidas h3{margin: 2px; font-size: 16px; margin-top: 25px;}
 .contacto h3{margin: 2px; font-size: 16px; margin-top: 25px;}
@@ -52,7 +52,7 @@ h4{
 #footer{
     clear: both;
     background-color: #ECECEC;
-    height: 70px
+    height: 35px
 }
 #contenedor{
     height: auto;
@@ -68,7 +68,7 @@ h4{
     padding-top: 35px;
 }
 #contenidoFooter{
-    height: 65px;
+    height: 30px;
     width: 960px;
     float: left;
     position: relative;
@@ -95,12 +95,17 @@ h4{
     float: right;
     top: 28px;
 }
+#buscadorForm fieldset{
+    border: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
 .buscador{
     width: 220px;
 }
 .divFooter{
     width: 181px;
-    height: 70px;
+    height: 35px;
     border-right-style: solid;
     border-right-color: #d6d6d6;
     border-right-width: 1px;
@@ -147,7 +152,11 @@ h4{
     margin: 0px auto;
     left: 50%;
     margin-left: -480px;
-    padding-top: 10px;
+    padding-top: 6px;
+}
+.divRedesContenido span img{
+    margin-top: 2px;
+    margin-right: 2px;
 }
 .divRedesContenido span{
     margin-left: 55px;
@@ -180,7 +189,7 @@ h4{
     list-style-type: none;
     position: relative;
     float: left;
-    margin-top: 0px auto;
+    margin-top: 0px;
     margin-bottom: 10px;
     margin-left: -480px;
     left: 50%;
@@ -247,7 +256,7 @@ h4{
     z-index: 5000;
     clear: both;
     background-color: #F0EEEB;
-    margin-top: 3px;
+    margin-top: 2px;
     /* animamos su visibildiad */
     -moz-transition: height .25s ease .1s;
     -webkit-transition: height .25s ease .1s;
@@ -312,7 +321,7 @@ h4{
 .listaFabricantes{
     position: relative;
     float: left;
-    width: 960;
+    width: 960px;
     height: auto;
 }
 .listaFabricantes a{
@@ -329,11 +338,22 @@ li.listing{
     width: 127px;
     margin-right: 10px;
 }
+.divDecoracion img{
+    margin-bottom: 10px;
+    
+}
+.divEmpresa img{float: left; margin-right: 20px;}
+.divBanosImg{
+    float: left;
+    margin-right: 20px;
+}
+.divBanosSecu img{
+    margin-top: 16px;
+}
 .divCocinas{
     width: 960px;
     position: relative;
     float: left;
-    text-align: justify;
 }
 .divCocinasFotos{
     position: relative;
@@ -367,6 +387,7 @@ li.listing{
     position: relative;
     float: left;
     clear: both;
+    margin-top: 10px;
 }
 .divContactoPeq{
     width: 240px;

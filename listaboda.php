@@ -1,10 +1,7 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Lista de Bodas .::Grupo Masol::."); ?>
     </style>
@@ -21,7 +18,7 @@ and open the template in the editor.
                 Nosotros hacemos el trabajo por ti.</h2>
             <p>En <b>Masol</b> encontrar&aacute;s todo lo necesario para tu nueva vida. Tenemos todo para que nos conf&iacute;es tu lista de bodas. 
                 Te asesoramos en todo lo necesario y te recomendamos lo que mejor se adapta a tus necesidades.</p>
-            <img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/cocina/modernas/grande/13_6.JPG&h=375&w=960&zc=1&f=png" width="960" />
+           <!-- <img src="<?php echo RUTA_PATH; ?>images/cocina/modernas/grande/13_6.JPG" alt="Lista Bodas" />-->
             <h2>Lista de Boda Ficticia y Modificable.</h2>
             <p>Todos los regalos comprados por tus invitados equivalen a un saldo euros.  
                 Los futuros contrayentes pueden aprovechar la lista de bodas para incluir 

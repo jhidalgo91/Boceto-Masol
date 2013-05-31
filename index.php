@@ -1,10 +1,7 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Grupo Masol"); ?>
         <link href="<?php echo RUTA_PATH; ?>css/style_transacion.css" rel="stylesheet" type="text/css" />
@@ -22,53 +19,53 @@ and open the template in the editor.
                     <div class="wrapper" >
                         <ul>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/13_6.JPG&h=375&w=960&zc=1&f=png" alt="" >
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/13_6.JPG&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/composicion.jpg&h=375&w=960&zc=1&f=png" alt="">
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/composicion.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-armadi-b-line-feat.jpg&h=375&w=960&zc=1&f=png" alt="" >
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-armadi-b-line-feat.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-lampo-affianco-det03.jpg&h=375&w=960&zc=1&f=png" alt="">
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-lampo-affianco-det03.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-lampo-segno-det08.jpg&h=375&w=960&zc=1&f=png" alt="">
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-lampo-segno-det08.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>   
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-letti-relux-feat.jpg&h=375&w=960&zc=1&f=png" alt="">
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/sangiacomo-letti-relux-feat.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                             <li>
-                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/Sussex_004.jpg&h=375&w=960&zc=1&f=png" alt="">
+                                <img src="funciones/thumb/phpThumb.php?src=/boceto/transicion/Sussex_004.jpg&amp;h=375&amp;w=960&amp;zc=1&amp;f=png" alt="" />
                             </li>
                         </ul>
                     </div>
                 </div>
-                <script src="js/slide.js"></script>
+                <script type="text/javascript" src="js/slide.js"></script>
                 <!--Fin Destacados-->
                 <div>
                     <div class="restoPagina">
-                        <div class="capaGrande"><img src="images/principal/1somosfabricantes.jpg" /></div>
-                        <div class="capaPeq"><img src="images/principal/2sininteres.png" /></div>
-                        <div class="capaPeq"><img src="images/principal/3abrimossabado.jpg" /></div>
+                        <div class="capaGrande"><img src="images/principal/1somosfabricantes.jpg" alt="Somos Fabricantes" /></div>
+                        <div class="capaPeq"><a href="servicios.php"><img src="images/principal/2sininteres.png" alt="Sin Intereses" /></a></div>
+                        <div class="capaPeq"><a href="contacto.php"><img src="images/principal/3abrimossabado.jpg" alt="Abrimos Sabado" /></a></div>
                     </div>
                     <div class="restoPagina">
-                        <div class="capaPeq2"><a href="listaboda.php"><img src="images/principal/4listabodas.jpg" /></a></div>
-                        <div class="capaPeq2"><a href="decoracion.php" ><img src="images/principal/5serviciodecoracion.png" /></a></div>
-                        <div class="capaGrande2"><img src="images/principal/6descanso.jpg"></div>
+                        <div class="capaPeq2"><a href="listaboda.php"><img src="images/principal/4listabodas.jpg" alt="Lista de Bodas" /></a></div>
+                        <div class="capaPeq2"><a href="decoracion.php" ><img src="images/principal/5serviciodecoracion.png" alt="Decoracion" /></a></div>
+                        <div class="capaGrande2"><img src="images/principal/6descanso.jpg" alt="Descanso" /></div>
                     </div>
                     <div class="restoPagina">
-                        <img src="images/principal/7terraza.jpg" width="960" />
+                        <img src="images/principal/7terraza.jpg" width="960" alt="Terraza" />
                     </div>
                     <div class="restoPagina">
-                        <div class="capaFoto"><img src="images/principal/8cocinas.jpg" /></div>
+                        <div class="capaFoto"><img src="images/principal/8cocinas.jpg" alt="Cocinas" /></div>
                         <map name="redes" id="redes">
-                            <area shape="rect" coords="41,18,205,50" href="https://www.facebook.com/milarmasol.electrodomesticos" target="_blank" />
-                            <area shape="rect" coords="77,59,206,89" href="https://twitter.com/MilarMasol" target="_blank" />
-                            <area shape="rect" coords="46,104,205,128" href="#" />
+                            <area shape="rect" coords="41,18,205,50" href="https://www.facebook.com/milarmasol.electrodomesticos" alt="Milar Facebook" target="_blank" />
+                            <area shape="rect" coords="77,59,206,89" href="https://twitter.com/MilarMasol" target="_blank" alt="Milar Twitter" />
+                            <area shape="rect" coords="46,104,205,128" href="#" alt="" />
                         </map>
-                        <div class="capaRedes"><img width="220" usemap="#redes" src="images/principal/9social.png"/></div>
+                        <div class="capaRedes"><img width="220" usemap="#redes" src="images/principal/9social.png" alt="Redes Sociales" /></div>
                     </div>
 
 

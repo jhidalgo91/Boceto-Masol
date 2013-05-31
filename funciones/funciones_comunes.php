@@ -30,8 +30,8 @@ function mostrarImagen($imagen) {
     global $e;
     ?>
     <li <?php if((($e)%4)==0) echo "class='liSinMargen'" ?>>
-        <a href="funciones/thumb/phpThumb.php?src=<?php echo $imagen; ?>&w=960&f=png" title="">
-            <img src="funciones/thumb/phpThumb.php?src=<?php echo $imagen; ?>&h=220&w=220&zc=1&f=png" alt="" />
+        <a href="funciones/thumb/phpThumb.php?src=<?php echo $imagen; ?>&amp;w=960&amp;f=png" title="">
+            <img src="funciones/thumb/phpThumb.php?src=<?php echo $imagen; ?>&amp;h=220&amp;w=220&amp;zc=1&amp;f=png" alt="" />
         </a>
     </li>
     <?php

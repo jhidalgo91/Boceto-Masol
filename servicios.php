@@ -1,10 +1,7 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Servicios .::Grupo Masol::."); ?>
     </head>
@@ -17,39 +14,39 @@ and open the template in the editor.
                 <h1>Servicios</h1>
                 <div class="divServicio">
                     <div class="divServicioPeq">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/transporte.jpg" />
-                        <h2>Transporte y montaje gratuitos</h2>
-                        <p>Te llevamos los muebles a casa y te los montamos gratis. Est&aacute; demostrado que un mueble montado por un profesional dura m&aacute;s.</p>
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/transporte.jpg" alt="Transporte" />
+                        <h2>Transporte y montaje gratuito</h2>
+                        <p>Te llevamos los muebles a casa y te los montamos gratis.</p>
                     </div>
                     <div class="divServicioPeq right">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/servicio.jpg" />
-                        <h2>Servicio post-venta</h2>
-                        <p>Nuestro servicio post-venta te dar&aacute; soluciones y responder&aacute; a todas tus dudas una vez ya hayas adquirido el producto.</p>
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/servicio.jpg" alt="Servicio" />
+                        <h2>Postventa</h2>
+                        <p>Nuestro servicio al cliente se lo daremos en todo momento, no solo durante el proceso de venta, sino tambi&eacute;n, despu&eacute;s de haberse concretado esta.</p>
                     </div>
                     <div class="divServicioPeq">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/financiacion.jpg" />
-                        <h2>Financiaci&oacute;n</h2>
-                        <p>En <b>Grupo Masol</b> financiamos tus muebles en 60 meses sin interes.</p>
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/financiacion.jpg" alt="Financiacion" />
+                        <h2>Financiaci&oacute;n</h2> 
+                        <p>Financiamos tus muebles en 60 meses sin interes.</p>
                     </div>
                     <div class="divServicioPeq right">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/atencion.jpg" />
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/atencion.jpg" alt="Atencion" />
                         <h2>Atenci&oacute;n personalizada</h2>
-                        <p>Ponemos a tu disposici&oacute;n todo un equipo de expertos en muebles y decoraci&oacute;n que te atender&aacute; en todo momento.</p>
+                        <p>Ponemos a tu servicio un profesional que atienda todas tus necesidades.</p>
                     </div>
                     <div class="divServicioPeq">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/presupuesto.jpg" />
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/presupuesto.jpg" alt="Presupuesto" />
                         <h2>Presupuesto sin compromiso</h2>
-                        <p>En <b>Grupo Masol</b> financiamos tus muebles hasta en 60 meses sin interes.</p>
+                        <p>Puedes solicitar un presupuesto sin ningun tipo de compromiso.</p>
                     </div>
                     <div class="divServicioPeq right">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/proyectos.jpg" />
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/proyectos.jpg"  alt="Proyectos" />
                         <h2>Proyectos 3D</h2>
-                        <p>Te realizamos un proyecto 3D completamente gratis para que veas c&oacute;mo quedan los muebles en tu espacio.</p>
+                        <p>Te hacemos un proyecto en 3D totalmente gratis, para hacerte una idea mejor de como quedar&iacute;a los muebles en tu espacio.</p>
                     </div>
                     <div class="divServicioPeq">
-                        <img src="<?php echo RUTA_PATH; ?>images/servicios/medidas.jpg" />
-                        <h2>Te tomamos las medidas en casa</h2>
-                        <p>No te vamos a pedir que cojas el metro y el l&aacute;piz, nosotros lo hacemos por ti. Vamos a casa a tomarte las medidas.</p>
+                        <img src="<?php echo RUTA_PATH; ?>images/servicios/medidas.jpg" alt="Medidas" />
+                        <h2>Tomamos las medidas en casa</h2>
+                        <p>Disponemos de un personal cualificado, los cuales van a su casa a tomarles todas las medidas necesarias.</p>
                     </div>
                 </div>        
             </div>

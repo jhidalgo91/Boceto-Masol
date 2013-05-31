@@ -1,10 +1,6 @@
 <?php require_once 'conf.php'; ?>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
         <?php meta("Empresa .::Grupo Masol::."); ?>
     </head>
@@ -15,10 +11,10 @@ and open the template in the editor.
         <div id="contenedor">
             <div id="contenidoPagina">
                 <h1>Empresa</h1>
-                <div class="divBanos">
-                    <div><img src="funciones/thumb/phpThumb.php?src=<?php echo RUTA_PATH; ?>images/design/empresa.jpg&h=375&w=960&zc=1&f=png" width="960" /></div>
+                <div class="divEmpresa">
+                    <img src="<?php echo RUTA_PATH; ?>images/design/empresa.jpg" alt="Empresa" />
                     <p>
-                        Grupo Masol es una empresa que nace para cubrir las necesidades del hogar. 
+                        <b>Grupo Masol<b/> es una empresa que nace para cubrir las necesidades del hogar. 
                         Contamos con una infraestructura de m&aacute;s de 8.000 metros cuadrados, distribuidos en nuestras 4 tiendas.
                     </p>
                     <p>

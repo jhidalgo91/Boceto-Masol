@@ -15,36 +15,3 @@
 .capaRedes{
     margin-left: 10px;
 } 
-.menu ul li ul, .menu ul li ul li, .menu ul li ul li a{
-    height: 0px;    
-    width: 0px;
-    opacity: 0;
-    overflow: hidden;
-    display: none;
-}
-
-.menu ul li a:hover > menu ul li ul{
-    height: 35px; 
-    backface-visibility: visible;
-    width: 146px;
-    opacity: 1;
-    display: block;
-    overflow: visible;
-}
-.menu ul li a:hover > menu ul li ul li{
-    height: 35px; 
-    backface-visibility: visible;
-    width: 146px;
-    opacity: 1;
-    display: block;
-    overflow: visible;    
-}
-.menu ul li a:hover > menu ul li ul li a{
-    overflow: visible;    
-    height: 35px; 
-    backface-visibility: visible;
-    width: 146px;
-    opacity: 1;
-    display: block;
-    
-}
